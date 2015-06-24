@@ -7,7 +7,7 @@ Docker image for running [SSLMate's](https://sslmate.com) command line utility.
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`latest`, `1.2.2` (Dockerfile)](https://github.com/Starefossen/docker-sslmate/blob/master/Dockerfile)
+* [`latest`, `1.3.0` (Dockerfile)](https://github.com/Starefossen/docker-sslmate/blob/master/Dockerfile)
 
 ## What is SSLMate
 
