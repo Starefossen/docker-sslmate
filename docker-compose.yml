@@ -1,0 +1,6 @@
+dev:
+    build: .
+    working_dir: /
+    volumes:
+        - certs:/etc/sslmate
+    command: /bin/bash
