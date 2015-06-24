@@ -1,6 +1,3 @@
-
-## Usage
-
 # Docker SSLMate
 
 Docker image for running [SSLMate's](https://sslmate.com) command line utility.
