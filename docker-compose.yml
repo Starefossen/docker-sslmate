@@ -1,6 +1,10 @@
-dev:
-    build: .
-    working_dir: /
-    volumes:
-        - certs:/etc/sslmate
-    command: /bin/bash
+version: '2'
+
+services:
+    sslmate:
+        build: .
+        working_dir: /
+        volumes:
+            - ./certs:/etc/sslmate
+        entrypoint: sslmate
+        command: help
