@@ -3,7 +3,7 @@ FROM buildpack-deps:jessie
 RUN gpg --keyserver pool.sks-keyservers.net --recv-keys \
   3EC749BE801FDAF13A0C2883426F7E4DB60BBFB8
 
-ENV SSLMATE_VERSION=1.5.0
+ENV SSLMATE_VERSION=1.5.1
 ENV SSLMATE_HOST=https://packages.sslmate.com
 
 RUN curl -SLO "${SSLMATE_HOST}/other/sslmate-${SSLMATE_VERSION}.tar.gz" \
